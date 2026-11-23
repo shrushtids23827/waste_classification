@@ -1,0 +1,25 @@
+# Dataset files are local training data and must not be committed.
+/dataset/
+
+# Python virtual environments and generated files.
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Operating-system and editor temporary files.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and local environment configuration.
+*.log
+.env
+.env.*
+!.env.example
